@@ -1,0 +1,4 @@
+FROM archlinux/base
+ENV LANG=en_US.UTF-8
+
+RUN pacman --noconfirm -Sy opencv vtk cmake git make gtk3 hdf5 glew gdk-pixbuf2 base-devel

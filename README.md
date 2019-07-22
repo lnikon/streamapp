@@ -10,8 +10,8 @@ Server generates infinite .m3u8 playlist from the pre-generated
 Server is built using oat++ Async-Api and has following endpoints:
 
 - ```("GET", "/", Root)``` - Starting html-page aka index.html
-- ```("GET", "video/frames", Frames)``` - Extract frames from video into video/screenshots 
-- ```("GET", "video/record", Record)``` -  Extract frames from video into video/record
+- ```("GET", "/frames", Frames)``` - Extract frames from video into video/screenshots 
+- ```("GET", "/record", Record)``` -  Extract frames from video into video/record
 
 ### Project layout
 

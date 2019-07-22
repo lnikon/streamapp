@@ -56,10 +56,25 @@ $ make
 $ ./src/streamapp             # - run application.
 ```
 
-#### In Docker
+#### On/In Docker :)
+
+As a docker image base the archlinux/base image is used.
+You can find built image on hub.docker.com `https://hub.docker.com/r/lnikon/stream_app`
+
+Following libraries were installed:
+  - opencv 
+  - vtk 
+  - cmake 
+  - git 
+  - make 
+  - gtk3 
+  - hdf5 
+  - glew 
+  - gdk-pixbuf2 
+  - base-devel
 
 ```
-$ docker build -t streamApp -hls .
+$ docker build -t streamApp .
 $ docker run -p 8000:8000 -t streamApp
 ```
 ## Basic Auth
